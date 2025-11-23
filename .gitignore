@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Env files 
+.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests / coverage
+coverage/
+
+# Build artifacts
+dist/
+
+# Prisma
+prisma/dev.db
+prisma/dev.sqlite
+*.sqlite
+*.sqlite-journal
+
+# Vercel
+.vercel/
